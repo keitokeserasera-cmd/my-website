@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>反カナブン対抗戦線｜AKC</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #eee;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+
+header {
+  background: #111;
+  border-bottom: 3px solid #b00000;
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+nav {
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  background: #b00000;
+}
+
+.hero {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  background:
+    linear-gradient(rgba(0,0,0,.78), rgba(0,0,0,.92)),
+    radial-gradient(circle at center, #4d0000, #050505 65%);
+}
+
+.hero h1 {
+  font-size: clamp(40px, 9vw, 90px);
+  margin: 0;
+  letter-spacing: 8px;
+}
+
+.hero p {
+  color: #bbb;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.warning {
+  display: inline-block;
+  margin-top: 30px;
+  border: 1px solid #b00000;
+  padding: 12px 22px;
+  color: #ff4444;
+  font-weight: bold;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px 25px;
+}
+
+h2 {
+  font-size: 32px;
+  border-left: 6px solid #b00000;
+  padding-left: 15px;
+  margin-bottom: 35px;
+}
+
+.card {
+  background: #151515;
+  border: 1px solid #333;
+  padding: 25px;
+  margin: 15px 0;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #ff3333;
+}
+
+.kenta {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.quote {
+  border-left: 4px solid #b00000;
+  padding: 20px;
+  background: #121212;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+ul {
+  line-height: 2;
+}
+
+footer {
+  background: #080808;
+  border-top: 1px solid #333;
+  text-align: center;
+  padding: 40px 20px;
+  color: #777;
+}
+
+.red {
+  color: #ff3333;
+}
+
+.big-kanabun {
+  font-size: 100px;
+  filter: grayscale(1);
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 27px;
+    letter-spacing: 2px;
+  }
+
+  .hero h1 {
+    letter-spacing: 3px;
+  }
+
+  section {
+    padding: 50px 18px;
+  }
+
+  nav a {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">反カナブン対抗戦線</div>
+  <div class="subtitle">ANTI-KANABUN COUNTERFORCE / AKC</div>
+</header>
+
+<nav>
+  <a href="#about">組織概要</a>
+  <a href="#manifesto">綱領</a>
+  <a href="#leader">主催者</a>
+  <a href="#wika">WIKAへの声明</a>
+  <a href="#activity">活動記録</a>
+</nav>
+
+<div class="hero">
+  <div>
+    <div class="big-kanabun">🪲</div>
+    <h1>反カナブン</h1>
+    <p>カナブンを信仰する世界に、我々は問いを投げかける。</p>
+    <div class="warning">
+      ※本サイトは完全なフィクションです
+    </div>
+  </div>
+</div>
+
+<section id="about">
+  <h2>反カナブン対抗戦線とは</h2>
+
+  <div class="card">
+    <h3>AKC — Anti-Kanabun Counterforce</h3>
+    <p>
+      反カナブン対抗戦線、通称AKCは、
+      カナブンを中心とした架空の「カナブン信仰」に
+      対抗することを目的として結成された架空組織である。
+    </p>
+    <p>
+      我々はカナブンそのものを憎むのではない。
+      ただし、カナブンを神格化する思想には
+      強い疑問を呈する。
+    </p>
+  </div>
+</section>
+
+<section id="manifesto">
+  <h2>綱領</h2>
+
+  <div class="quote">
+    「カナブンが空を飛ぶなら、我々は地に立つ。<br>
+    カナブンが輝くなら、我々は問い続ける。」
+  </div>
+
+  <div class="card">
+    <ul>
+      <li>カナブン信仰の自由な批判を認める</li>
+      <li>WIKAの思想的影響を研究する</li>
+      <li>カナブン以外の昆虫にも平等な評価を与える</li>
+      <li>無意味なカナブン崇拝をしない</li>
+      <li>平和的かつネタとして活動する</li>
+    </ul>
+  </div>
+</section>
+
+<section id="leader">
+  <h2>主催者</h2>
+
+  <div class="card">
+    <div class="kenta">田中ケンタッキー</div>
+    <p class="red">反カナブン対抗戦線 主催</p>
+
+    <p>
+      ある日、彼はこう考えた。
+    </p>
+
+    <div class="quote">
+      「なぜカナブンだけがここまで持ち上げられるのか。」
+    </div>
+
+    <p>
+      その疑問から始まった活動は、
+      やがて反カナブン対抗戦線へと発展した。
+    </p>
+  </div>
+</section>
+
+<section id="wika">
+  <h2>WIKAへの声明</h2>
+
+  <div class="card">
+    <h3>我々はWIKAに宣戦布告……するわけではない。</h3>
+
+    <p>
+      WIKAがカナブンを愛する権利を、
+      我々は否定しない。
+    </p>
+
+    <p>
+      しかし、カナブンだけを特別視する思想については、
+      我々は徹底的に議論する。
+    </p>
+
+    <p class="red">
+      「カナブンが平和なら、我々も平和である。」
+    </p>
+  </div>
+</section>
+
+<section id="activity">
+  <h2>活動記録</h2>
+
+  <div class="card">
+    <h3>第零次活動</h3>
+    <p>
+      田中ケンタッキー、カナブン信仰に疑問を抱く。
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>第一次声明</h3>
+    <p>
+      「カナブン以外の昆虫にも目を向けるべきである」
+      という声明を発表。
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>現在</h3>
+    <p>
+      WIKAとの思想的対立を続けながら、
+      平和的な活動を継続中。
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>最後に</h2>
+
+  <div class="quote">
+    カナブンを信じる者がいる。<br>
+    カナブンを疑う者もいる。<br><br>
+    重要なのは――
+    <span class="red">自分の思想を自分で決めることだ。</span>
+  </div>
+</section>
+
+<footer>
+  ANTI-KANABUN COUNTERFORCE<br>
+  AKC / 2026<br><br>
+  このサイトは架空の団体を題材としたジョークサイトです。
+</footer>
+
+</body>
+</html>
